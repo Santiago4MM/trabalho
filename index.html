@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Clash Royale</title>
+    <style>
+        /* Reset básico */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff4c4c, #ff9a3c);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #2b2b2b;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 20px;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff4c4c;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #ff4c4c;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        /* Estilo de cartas */
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: #f9f9f9;
+            border: 2px solid #ff4c4c;
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            padding: 10px;
+            transition: 0.3s;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Card especial de vídeo */
+        .card-video {
+            width: 300px;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .card-video iframe {
+            width: 100%;
+            height: 170px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card-video p {
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #2b2b2b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 600px) {
+            .cards-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                margin: 5px 10px;
+            }
+
+            .card-video {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guia Clash Royale</h1>
+        <p>Aprenda a jogar, entenda as cartas e melhore sua estratégia!</p>
+    </header>
+
+    <nav>
+        <a href="#overview">Visão Geral</a>
+        <a href="#cards">Cartas</a>
+        <a href="#strategy">Estratégia</a>
+        <a href="#clans">Clãs & Eventos</a>
+    </nav>
+
+    <section id="overview">
+        <h2>Visão Geral</h2>
+        <p>Clash Royale é um jogo de estratégia em tempo real desenvolvido pela Supercell. O objetivo principal é destruir as torres do oponente enquanto protege as suas. Cada partida exige planejamento, estratégia e tempo.</p>
+    </section>
+
+    <section id="cards">
+        <h2>Tipos de Cartas</h2>
+        <p>Os jogadores coletam e aprimoram cartas que representam tropas, feitiços e construções. Cada carta tem um papel específico nas batalhas:</p>
+        <div class="cards-container">
+            <div class="card">
+                <img src="https://i.imgur.com/KSVi7JD.jpeg" alt="Troop Card">
+                <p><strong>Troop Card:</strong> Ataca ou defende torres.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.imgur.com/GGBJT5w.jpeg" alt="Building Card">
+                <p><strong>Building Card:</strong> Defende ou gera tropas.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.imgur.com/1buzSst.jpeg" alt="Spell Card">
+                <p><strong>Spell Card:</strong> Causa dano ou apoia tropas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy">
+        <h2>Dicas de Estratégia</h2>
+        <p>Ter sucesso em Clash Royale requer combinar diferentes cartas para criar estratégias eficazes. Use cada carta com sabedoria e adapte-se ao seu oponente.</p>
+        <ul>
+            <li>Equilibre ataque e defesa.</li>
+            <li>Use seus feitiços no momento certo.</li>
+            <li>Conheça as forças e fraquezas de cada carta.</li>
+        </ul>
+
+        <div class="cards-container">
+            <div class="card-video">
+                <iframe src="https://www.youtube.com/embed/ShzhRaKu-lA" 
+                    title="Player de vídeo do YouTube" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <p><strong>Vídeo Guia:</strong> Assista a este vídeo para melhorar suas estratégias em Clash Royale!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clans">
+        <h2>Clãs & Eventos</h2>
+        <p>Junte-se a clãs para participar de batalhas amigáveis, torneios e eventos especiais para ganhar recompensas. Jogar com outros ajuda a aprender e melhorar mais rápido!</p>
+    </section>
+
+    <footer>
+        <p>&copy; Feito por Santiago, Gabriel Vitor e Lucas</p>
+    </footer>
+</body>
+</html>
